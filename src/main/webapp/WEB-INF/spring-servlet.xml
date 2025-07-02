@@ -11,6 +11,7 @@
 	<context:component-scan base-package="com.app.Controller"></context:component-scan>
 	<context:annotation-config />
 	<mvc:annotation-driven />
+	<mvc:resources mapping="/resources/**" location="/resources/" />
 	<bean id="ViewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		
